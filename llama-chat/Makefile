@@ -1,6 +1,6 @@
 # Specify the target file to be downloaded
-MODEL_URL = https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q2_K.gguf
-MODEL_FILE = models/mixtral-8x7b-instruct-v0.1.Q2_K.gguf
+MODEL_URL = https://huggingface.co/mradermacher/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/Mixtral-8x7B-Instruct-v0.1.IQ3_M.gguf
+MODEL_FILE = models/Mixtral-8x7B-Instruct-v0.1.IQ3_M.gguf
 
 # Default target to download the model
 all: download
