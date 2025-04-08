@@ -2,7 +2,7 @@ import sys
 from llama_cpp import Llama
 
 # Load the model
-model_path = "/home/stgleb/GolandProjects/minimal-llm/llama-chat/models/Mixtral-8x7B-Instruct-v0.1.IQ3_M.gguf"  # Update this path as needed
+model_path = "models/Mixtral-8x7B-Instruct-v0.1.IQ3_M.gguf"  # Update this path as needed
 try:
     llama = Llama(model_path=model_path)
     print("Model loaded successfully!")
